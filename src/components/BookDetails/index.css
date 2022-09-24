@@ -1,0 +1,237 @@
+.bookdetails-container {
+  background-size: cover;
+}
+.light-theme {
+  background-color: #f5f7fa;
+}
+.card-dark-theme {
+  background-color: #343536;
+}
+.dark-theme {
+  background-color: #181818;
+}
+.light-theme-text {
+  color: #475569;
+}
+.dark-theme-text {
+  color: #f9f9f9;
+}
+@media screen and (max-width: 768px) {
+  .bookdetails-container {
+    min-height: 150vh;
+    background-size: auto;
+    padding: 0px;
+  }
+}
+.responsive-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-responsive-container {
+  height: 80%;
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .book-details-responsive-container {
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    padding: 0px;
+    margin-right: 30px;
+  }
+}
+.book-details-top-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cover-pic-description {
+  height: 30%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .cover-pic-description {
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cover-pic {
+  height: 100%;
+  width: 30%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .cover-pic {
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+  }
+}
+.book-description-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 16px;
+}
+@media screen and (max-width: 768px) {
+  .book-description-container {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.star {
+  color: #fbbf24;
+}
+.read-status {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.read-status-span-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #0284c7;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 16px;
+  }
+  .author-name {
+    font-size: 14px;
+  }
+  .rating {
+    font-size: 14px;
+  }
+  .read-status {
+    font-size: 14px;
+  }
+  .read-status-span-text {
+    font-size: 14px;
+  }
+}
+.separator {
+  width: 100%;
+  height: 0px;
+  left: 214px;
+  top: 523px;
+  border: 1px solid #94a3b8;
+}
+@media screen and (max-width: 768px) {
+  .separator {
+    margin-left: 16px;
+  }
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+}
+.description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .about-heading {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .description {
+    font-size: 13px;
+    margin-left: 16px;
+  }
+}
+.loader-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-failure-view-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .book-details-failure-view-container {
+    height: 10%;
+    width: 100%;
+  }
+}
+.failure-image {
+  height: 340px;
+  width: 180px;
+}
+@media screen and (max-width: 768px) {
+  .failure-image {
+    height: 200px;
+    width: 100px;
+  }
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.try-again-button {
+  height: 30px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #3e8bf0;
+  border: none;
+}

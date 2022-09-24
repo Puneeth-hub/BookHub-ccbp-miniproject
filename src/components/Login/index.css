@@ -1,0 +1,123 @@
+.login-responsive-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .login-responsive-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.login-page-left-side-section {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .login-page-left-side-section {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faffff;
+  }
+}
+.login-page-image {
+  max-height: 100vh;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .login-page-image {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+}
+.login-page-right-side-section {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faffff;
+}
+@media screen and (max-width: 768px) {
+  .login-page-right-side-section {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-start;
+  }
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 16px;
+  box-shadow: 0px 2px 4px 0px #a5b5d1;
+}
+@media screen and (max-width: 768px) {
+  .login-card {
+    height: 80%;
+    width: 85%;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+}
+.login-website-logo {
+  height: 40px;
+  width: 100px;
+}
+.form-container {
+  height: 60%;
+  width: 90%;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #373b40;
+}
+.input-element {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #737475;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.submit-button {
+  height: 40px;
+  width: 100%;
+  background-color: #508bf2;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: none;
+}
+.error-message {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: red;
+}

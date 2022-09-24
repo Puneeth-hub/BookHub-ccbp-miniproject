@@ -1,0 +1,207 @@
+.home-container {
+  min-height: 100vh;
+  width: 100vw;
+}
+.light-theme {
+  background-color: #ffffff;
+}
+.dark-slider {
+  background-color: #343536;
+}
+.dark-theme {
+  background-color: #181818;
+}
+.light-theme-text {
+  color: #475569;
+}
+.dark-theme-text {
+  color: #f9f9f9;
+}
+.slider-theme-light {
+  background-color: #979a9a;
+}
+.responsive-home {
+  height: 100%;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media screen and (max-width: 768px) {
+  .responsive-home {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+}
+.top-rated-books-find-books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .top-rated-books-find-books {
+    width: 100%;
+  }
+}
+.top-rated-books-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .top-rated-books-heading {
+    font-size: 18px;
+  }
+}
+.find-books-button {
+  height: 30px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #3e8bf0;
+  border-radius: 5px;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .find-books-button {
+    width: 80px;
+    height: 24px;
+    font-size: 12px;
+  }
+}
+.slider-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 32px;
+}
+@media screen and (max-width: 768px) {
+  .slider-container {
+    padding: 10px;
+  }
+}
+
+.slick-container {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .slick-container {
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+.slick-item {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 16px;
+}
+@media screen and (max-width: 768px) {
+  .slick-item {
+    width: 90%;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+.slick-prev:before {
+  color: black;
+}
+.slick-next:before {
+  color: black;
+}
+
+.slick-item-cover-pic {
+  height: 150px;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .slick-item-cover-pic {
+    height: 80px;
+    width: 100%;
+  }
+}
+.slick-item-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+.text-links {
+  text-decoration: none;
+}
+.slick-item-author-name {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .slick-item-title {
+    font-size: 13px;
+  }
+  .slick-item-author-name {
+    font-size: 10px;
+  }
+}
+.home-failure-view-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-failure-image {
+  height: 200px;
+  width: 180px;
+}
+@media screen and (max-width: 768px) {
+  .home-failure-image {
+    height: 200px;
+    width: 100px;
+  }
+}
+.home-failure-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.home-try-again-button {
+  height: 30px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #3e8bf0;
+  border: none;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-size: 10px;
+}

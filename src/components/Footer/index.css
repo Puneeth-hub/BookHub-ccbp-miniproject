@@ -1,0 +1,34 @@
+.footer-container {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  align-self: flex-end;
+  padding-bottom: 32px;
+}
+.light-theme-text {
+  color: #475569;
+}
+.dark-theme-text {
+  color: #f9f9f9;
+}
+.contact-us-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.responsive-footer {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-buttons {
+  outline: none;
+  background: none;
+  cursor: pointer;
+  border: none;
+}

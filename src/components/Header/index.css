@@ -1,0 +1,127 @@
+.navbar {
+  max-height: 100px;
+  width: 100%;
+}
+.header-light-theme {
+  background-color: #ffffff;
+}
+.header-dark-theme {
+  background-color: #3a3d3b;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    max-height: 150px;
+  }
+}
+.header-responsive-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media screen and (max-width: 768px) {
+  .header-responsive-navbar {
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0px;
+  }
+}
+.website-logo {
+  width: 80px;
+  height: 30px;
+}
+.nav-items-container {
+  width: 40%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .nav-items-container {
+    width: 50%;
+  }
+  .website-logo {
+    margin-left: 20px;
+  }
+}
+.mobile-nav-items-container {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-items-container {
+    display: none;
+  }
+  .mobile-nav-items-container {
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+  }
+  .nav-text {
+    font-size: 15px;
+  }
+}
+.theme-button {
+  height: 30px;
+  width: 30px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.close-icon {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .close-icon {
+    display: block;
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-icon {
+    display: block;
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+.nav-links {
+  text-decoration: none;
+  color: #7ba1e3;
+}
+.nav-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.light-theme-text {
+  color: #475569;
+}
+.dark-theme-text {
+  color: #f9f9f9;
+}
+.styled-nav-text {
+  color: #7ba1e3;
+}
+.logout-button {
+  height: 24px;
+  width: 50px;
+  background-color: #3a76de;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
