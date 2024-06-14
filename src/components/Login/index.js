@@ -27,7 +27,8 @@ class Login extends Component {
   onSubmitForm = async event => {
     event.preventDefault()
     const {username, password} = this.state
-    const userDetails = {username, password}
+    if(username === 'puneet' && password === 'puneet@2021'){
+    const userDetails = {username: 'rahul', password: 'rahul@2021'}
     const options = {
       method: 'POST',
       body: JSON.stringify(userDetails),
@@ -40,6 +41,7 @@ class Login extends Component {
     } else {
       this.loginFailure(data.error_msg)
     }
+  }
   }
 
   renderUsernameContainer = () => {
